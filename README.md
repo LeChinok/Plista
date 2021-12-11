@@ -34,4 +34,4 @@ web_public_ip = "13.37.57.121"
 
 3. I first had errors because I skipped on installing the modules associated with the folders, after this was fixed. I can confirm it works by visitng the server instance address @ http://13.37.57.121/
 
-4. Even if this is late, it was a nice learning experience, thank you.
+4. It was a nice learning experience!, thank you.
