@@ -22,14 +22,14 @@ Puppet Bolt: >= 2.44.0
 Outputs was :
 
 web_public_ip = "13.37.57.121"
-```
+
 ## After configuring my puppet manifest file, and downloading puppet bolt, I followed these steps
 2. Run puppet (bolt):
-```
+
 - cd puppet
 - bolt module install
 - bolt plan run puppet::deploy --inventory inventory.yaml --targets 13.37.57.121 --log-level debug --tmpdir /tmp --no-host-key-check --user ubuntu --run-as root
-```
+
 
 3. I first had errors because I skipped on installing the modules associated with the folders, after this was fixed. I can confirm it works by visitng the server instance address @ http://13.37.57.121/
 
