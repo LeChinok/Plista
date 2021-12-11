@@ -27,6 +27,7 @@ web_public_ip = "13.37.57.121"
 2. Run puppet (bolt):
 
 - cd puppet
+- brew install --cask puppet-bolt@2
 - bolt module install
 - bolt plan run puppet::deploy --inventory inventory.yaml --targets 13.37.57.121 --log-level debug --tmpdir /tmp --no-host-key-check --user ubuntu --run-as root
 
