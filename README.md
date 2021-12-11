@@ -1,6 +1,6 @@
 # So I went ahead to retry again this the right way!
 
-## I stumbled on Puppet Bolt which was the right solution for running this locally, and installed this version below (the tutorial I watched used this, 3.20 gave some tiny errors -__-)
+## I stumbled on Puppet Bolt which was the right solution for running this locally, and installed this version below (the tutorial I watched used this, 3.20 gave some tiny errors -__-
 Puppet Bolt: >= 2.44.0
 
 ## Steps I Took
