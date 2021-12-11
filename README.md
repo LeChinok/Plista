@@ -6,8 +6,9 @@ Puppet Bolt: >= 2.44.0
 ## Steps I Took
 
  Notes:
-    - I was able to also output the instance ip address `13.37.57.121` after provisioning.
-    - I Changed the terraform code a bit too and used resources this time, I also added aws_key `~/.ssh/id_rsa.pub` which is the same in the `inventory.yaml`.
+ 
+   - I was able to also output the instance ip address `13.37.57.121` after provisioning.
+   - I Changed the terraform code a bit too and used resources this time, I also added aws_key `~/.ssh/id_rsa.pub` which is the same in the `inventory.yaml`.
 
 1. Run terraform:
 
