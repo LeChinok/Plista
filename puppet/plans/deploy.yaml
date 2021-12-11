@@ -1,0 +1,16 @@
+parameters:
+  targets:
+    type: TargetSpec
+
+steps:
+  - name: installnginx
+    targets: $targets
+    resources:
+      - class: nginx
+  - name: deploycontent
+    targets: $targets
+    resources:
+      - file: /usr/share/nginx/html/index.html
+        parameters:
+          ensure: file
+          content: '<!DOCTYPE html><html><body><h1>Greetings From Chinok!</h1></body></html>'

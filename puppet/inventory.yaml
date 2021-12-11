@@ -1,0 +1,10 @@
+---
+groups:
+- name: terraform
+  config:
+    transport: ssh
+    ssh:
+      user: ubuntu
+      run-as: root
+      private-key: "~/.ssh/id_rsa"
+      host-key-check: false
